@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Amit Buhbut - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and Tailwind CSS, showcasing Amit's design work with a clean, professional layout.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Responsive Design**: Mobile-first approach with a 4-column grid layout
+- **Dark Theme**: Professional dark color scheme
+- **Component-Based Architecture**: Modular, reusable React components
+- **Centralized Asset Management**: All assets managed from a single configuration file
+- **Modern UI**: Clean typography and intuitive navigation
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+├── components/
+│   ├── index.js              # Component exports
+│   ├── ProfileSection.js     # Profile information sidebar
+│   ├── PortfolioGallery.js   # Main portfolio grid
+│   ├── ProjectItem.js        # Individual project component
+│   └── TagBadge.js           # Tag/label component
+├── assets/
+│   └── index.js              # Centralized asset management
+├── App.js                    # Main application component
+├── App.css                   # Application styles
+└── index.css                 # Global styles with Tailwind
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Components
 
-### `npm test`
+### ProfileSection
+- Displays profile image, name, description, and contact information
+- Fully responsive sidebar layout
+- Configurable via assets file
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### PortfolioGallery
+- Grid-based portfolio display
+- Responsive 2-column layout
+- Supports any number of projects
 
-### `npm run build`
+### ProjectItem
+- Individual project display with image
+- Optional tag overlay support
+- Hover effects and responsive behavior
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### TagBadge
+- Reusable tag/label component
+- Customizable colors and text
+- Used for project categorization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Asset Management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All static content is managed through `src/assets/index.js`:
 
-### `npm run eject`
+```javascript
+export const ASSETS = {
+  profile: {
+    image: "...",
+    name: "...",
+    description: "...",
+    email: "...",
+    contactTitle: "..."
+  },
+  projects: [
+    {
+      id: 1,
+      image: "...",
+      alt: "...",
+      tags: [...] // Optional tags
+    }
+  ],
+  colors: {
+    background: "#1a202c",
+    text: "#cbd5e0",
+    // ... other theme colors
+  }
+};
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Benefits of Centralized Assets:
+- **Easy Updates**: Change all content from one location
+- **Consistency**: Ensures uniform styling across components
+- **Maintainability**: Simple to add/remove projects or update information
+- **Version Control**: Track changes to content easily
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Customization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Adding New Projects
+1. Open `src/assets/index.js`
+2. Add new project object to the `projects` array:
+```javascript
+{
+  id: 7,
+  image: "your-image-url",
+  alt: "Project Description",
+  tags: [
+    { text: "Tag Name", color: "bg-blue-600" }
+  ]
+}
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Updating Profile Information
+1. Modify the `profile` object in `src/assets/index.js`
+2. All profile components will automatically update
 
-## Learn More
+### Customizing Colors
+1. Update the `colors` object in assets
+2. Modify Tailwind classes in components as needed
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-### Code Splitting
+### Installation
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Development Server
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+### Build for Production
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Styling
 
-### Making a Progressive Web App
+This project uses:
+- **Tailwind CSS**: Utility-first CSS framework
+- **Dark Theme**: Professional color scheme
+- **Responsive Design**: Mobile-first approach
+- **Modern Typography**: Clean, readable fonts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📱 Responsive Breakpoints
 
-### Advanced Configuration
+- **Mobile**: Single column layout
+- **Tablet**: Adjusted grid spacing
+- **Desktop**: Full 4-column layout with sidebar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔄 Future Enhancements
 
-### Deployment
+- Add project detail pages
+- Implement image lazy loading
+- Add animation transitions
+- Include contact form
+- Add project filtering by tags
+- Implement dark/light theme toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
+This project is created for Amit Buhbut's portfolio. All rights reserved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+Built with ❤️ using React and Tailwind CSS
+# amot-cv
