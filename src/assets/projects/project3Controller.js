@@ -1,19 +1,24 @@
+import FirstView from "../Gong_Magazine/#1 - FirstView.jpg";
+import MagaView1 from "../Gong_Magazine/#2 - HoldMAgazine.png";
+import MagaView2 from "../Gong_Magazine/#3 - SideofMagazinr.png";
+import MagaView3 from "../Gong_Magazine/#4 MagazinPresent.png";
+import WideView from "../Gong_Magazine/#7 - Viewmagazine.jpg";
 // Project 3 Controller - Design System
 // System Design Project
 
 // SECTION 1: Hero & Thumbnails plus additional imagery mapped to UI sections
 const PROJECT3_IMAGES = {
   // Used in SECTION 1 of the detail page
-  hero: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  thumbnail: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  hero: FirstView,
+  thumbnail: FirstView,
 
   // Used in SECTION 6 (Full-width image)
-  scrollablePattern: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  scrollablePattern: WideView,
 
   // Used in SECTION 4 (Two-image grid)
-  process1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  process2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  process3: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  process1: MagaView1,
+  process2: MagaView2,
+  process3: MagaView3,
 
   // Used in SECTION 6 (Full-width images)
   interfacePreview: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",

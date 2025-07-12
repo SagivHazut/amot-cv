@@ -1,22 +1,24 @@
+import FirstView from "../Rational_Design_Lab/FirstView.jpg";
+import OverView from "../Rational_Design_Lab/portfolio exhibit.mp4";
+import Experiments from "../Rational_Design_Lab/Experiment.mp4";
+import LogoExplainer from "../Rational_Design_Lab/Logo motion_1.mp4";
+import Poster1 from "../Rational_Design_Lab/A.Poster_Sacregicing 03-06.mp4";
+import Poster2 from "../Rational_Design_Lab/A.Poster_Parllal 03-06.mp4";
+import Webflow from "../Rational_Design_Lab/site video.mp4";
 // Project 1 Controller - Academic Bridge
 // A Bridge Gap Between Academia and Society
 
 // Project 1 specific images (replace with actual project images)
 const PROJECT1_IMAGES = {
   // Used in SECTION 1: Hero Section
-  hero: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  thumbnail: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  hero: FirstView,
+  thumbnail: FirstView,
   // Used in SECTION 6 & 8: Process images and book spreads
-  process1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  process1: OverView,
   process2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
   process3: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
   // Used in SECTION 3 & 12: Gallery sections
-  gallery1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery3: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery4: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery5: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery6: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w"
+  gallery1: OverView,
 };
 
 // Project 1 specific tags

@@ -1,13 +1,17 @@
+import FirstView from "../Gamal_Archive/FirstView.png";
+import TheElement from "../Gamal_Archive/The element.jpg";
+import Bilboard1 from "../Gamal_Archive/Bilboard_Excitment_mkup.jpg";
+import WebFlow from "../Gamal_Archive/electric-car-ecology-technology-save-energy-concept.mp4";
 // Project 4 Controller - Mobile App
 // Mobile Design Project
 
 // Project 4 specific images (replace with actual project images)
 const PROJECT4_IMAGES = {
-  hero: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  thumbnail: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  process1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  process2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  process3: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  hero: FirstView,
+  thumbnail: FirstView,
+  process1: WebFlow,
+  process2: Bilboard1,
+  process3: TheElement,
   gallery1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
   gallery2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
   gallery3: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",

@@ -1,32 +1,42 @@
+import FirstView from "../Boilit/#1-FirstView.jpg";
+import Teaser from "../Boilit/#2-Portfoilio Teaser_NOSoUND.mp4";
+import logo from "../Boilit/#3 - Logo.png";
+import overview from "../Boilit/#4 - OverView.png";
+import Persona from "../Boilit/#5 - Persona.png";
+import Before_flowchart from "../Boilit/#6 -Before- FlowChart.jpg";
+import After_flowchart from "../Boilit/#7 - After - FlowChart.jpg";
+import MainScenatio from "../Boilit/#8 - Main scenario-decision Making.png";
+import problem1 from "../Boilit/#9 - RoofView.webp";
+import problem2 from "../Boilit/#10 -RoofView2.webp";
+import Workflow from "../Boilit/#11 - WorkFlow_Video.mov";
 // Project 2 Controller - Boilit App
 // Smart Home Water System Management
 
 // SECTION 1: Hero images
 const PROJECT2_IMAGES = {
   // Used in SECTION 1: Hero Section
-  hero: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w", 
+  hero: FirstView, 
   thumbnail: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w", 
   heroPhone: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
 
   // Used in SECTION 3: Scrollable Pattern (visual break)
-  scrollablePattern: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-
+  scrollablePattern: Teaser,
   // Used in SECTION 6: Logo & UI Mockups (two-image grid)
-  logoBoilit: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  uiMockups: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  logoBoilit: logo,
+  uiMockups: overview,
 
   // Used in SECTION 8: Research Data & User Flow
-  researchData: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  researchData: Persona,
   userFlow: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
 
   // Used in SECTION 9: User Journey images
-  beforeJourney: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-  afterJourney: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80",
+  beforeJourney: Before_flowchart,
+  afterJourney: After_flowchart,
 
   // Used in SECTION 13: Location Context & Interface Preview
-  locationContext1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  locationContext2: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  interfacePreview: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+  locationContext1: problem1,
+  locationContext2: problem2,
+  interfacePreview: Workflow,
 
   // Used in SECTION 15: Gallery / Sketches
   sketch1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
