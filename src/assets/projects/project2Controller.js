@@ -4,7 +4,7 @@ import logo from "../Boilit/Logo.png";
 import overview from "../Boilit/OverView.png";
 import Persona from "../Boilit/Persona.png";
 import Before_flowchart from "../Boilit/Before- FlowChart.jpg";
-import After_flowchart from "../Boilit/After - FlowChart.jpg";
+import After_flowchart from "../Boilit/After - FlowChart.png";
 import MainScenatio from "../Boilit/Main scenario-decision Making.png";
 import problem1 from "../Boilit/RoofView.webp";
 import problem2 from "../Boilit/RoofView2.webp";
@@ -16,7 +16,7 @@ import Workflow from "../Boilit/WorkFlow_Video.mov";
 const PROJECT2_IMAGES = {
   // Used in SECTION 1: Hero Section
   thumbnail:
-    "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
+    FirstView,
   heroPhone:
     "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
 
@@ -66,12 +66,12 @@ export const PROJECT2_DATA = {
   id: 2,
   title: "BOILIT",
   subtitle: "Smart Home Water System Management",
-  shortTitle: "Boilit App",
+  shortTitle: "BOILIT | 2023",
   // Used in SECTION 1: Hero Section
   heroImage: FirstView,
   thumbnailImage: PROJECT2_IMAGES.thumbnail,
   scrollablePattern: Teaser,
-  alt: "Boilit Smart Home Water System App",
+  alt: "BOILIT",
 
   // Used in SECTION 2: Overview Section
   overview:

@@ -1,3 +1,4 @@
+import pfpic from "../assets/PfPic.JPG";
 // Project 1 - A Bridge Gap Between Academia and Society
 const project1Assets = {
   title: "A BRIDGE GAP BETWEEN ACADEMIA AND SOCIETY",

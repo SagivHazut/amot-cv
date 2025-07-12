@@ -10,9 +10,9 @@ import Project4 from './components/Project4.jsx';
 
 function App() {
   return (
-    <div className="font-sans p-8 bg-gray-800 text-gray-300 h-screen w-full">
+    <div className="font-sans bg-gray-800 text-gray-300 h-screen w-full">
       <div className="h-full w-full">
-        <div className="grid grid-cols-5 gap-8 h-full">
+        <div className="grid grid-cols-5 h-full">
           {/* Static Sidebar - always visible */}
           <ProfileSection profile={assets.profile} />
           

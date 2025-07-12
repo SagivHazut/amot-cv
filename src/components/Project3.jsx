@@ -12,7 +12,7 @@ const Project3 = () => {
 
   if (!project) {
     return (
-      <div className="flex items-center justify-center h-screen">
+      <div className='flex items-center justify-center h-screen bg-[#FFFCFC]'>
         <div className="text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Project Not Found</h2>
           <p className="text-gray-600">The project you are looking for does not exist.</p>
@@ -22,7 +22,7 @@ const Project3 = () => {
   }
 
   return (
-    <div className="h-full bg-white text-gray-900 overflow-y-auto">
+    <div className='h-full bg-[#FFFCFC] text-[#161212] overflow-y-auto font-["Roboto"]'>
       {/* SECTION 1: Hero Section - Uses project.heroImage and project.title */}
       <HeroSection image={project.heroImage} alt={project.title} />
 
@@ -66,4 +66,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3; 
+export default Project3;

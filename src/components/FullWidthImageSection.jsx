@@ -1,9 +1,15 @@
 import React from 'react';
 
-const FullWidthImageSection = ({ image, alt }) => (
-  <section className="relative w-full h-132 bg-gray-100 mb-20">
-    <img src={image} alt={alt} className="w-full h-full object-cover" />
-  </section>
-);
+const FullWidthImageSection = ({ image, alt }) => {
+  return (
+    <div className="w-full overflow-hidden">
+      <img
+        src={image}
+        alt={alt}
+        className="w-full h-full object-cover"
+      />
+    </div>
+  );
+};
 
-export default FullWidthImageSection; 
+export default FullWidthImageSection;

@@ -1,8 +1,9 @@
+import pfpic from "../assets/PfPic.JPG";
 // Assets configuration file - all static content managed from here
 import { getProjectThumbnails } from './projectsController.js';
 
 // Profile assets
-const profileImage = "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w";
+const profileImage = pfpic;
 const profileName = "AMIT BUHBUT";
 const profileDescription = "I'm a product and user experience designer who uses design as a tool for asking questions, exploring systems, and turning abstract ideas into clear, human-centered solutions.";
 const profileEmail = "AMITBUHBUT20@GMAIL.COM";

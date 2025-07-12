@@ -13,7 +13,7 @@ const Project2 = () => {
 
   if (!project) {
     return (
-      <div className='flex items-center justify-center h-screen'>
+      <div className='flex items-center justify-center h-screen bg-[#FFFCFC]'>
         <div className='text-center'>
           <h2 className='text-2xl font-bold text-gray-900 mb-4'>
             Project Loading...
@@ -27,7 +27,7 @@ const Project2 = () => {
   }
 
   return (
-    <div className='h-full bg-white text-gray-900 overflow-y-auto'>
+    <div className='h-full bg-[#FFFCFC] text-[#161212] overflow-y-auto font-["Roboto"]'>
       {/* SECTION 1: Hero Section - Uses project.heroImage and project.title */}
       <section className='relative h-132 bg-gray-100 mb-20'>
         <img
@@ -127,7 +127,7 @@ const Project2 = () => {
             <img
               src={project.researchData}
               alt='Research Data'
-              className='w-full h-auto rounded-lg'
+              className='w-full h-auto'
             />
           </div>
         </section>
@@ -161,13 +161,13 @@ const Project2 = () => {
               <img
                 src={project.userJourney.beforeImage}
                 alt={project.userJourney.beforeAlt}
-                className='w-full max-w-5xl rounded-lg shadow-lg bg-white'
+                className='w-full max-w-5xl'
               />
             ) : (
               <img
                 src={project.userJourney.afterImage}
                 alt={project.userJourney.afterAlt}
-                className='w-full max-w-5xl rounded-lg shadow-lg bg-white'
+                className='w-full max-w-5xl'
               />
             )}
           </div>
@@ -208,12 +208,12 @@ const Project2 = () => {
               <img
                 src={project.locationContext[0]}
                 alt='Location Context 1'
-                className='w-full h-64 p-1 object-cover rounded-lg'
+                className='w-full h-64 p-1 object-cover'
               />
               <img
                 src={project.locationContext[1]}
                 alt='Location Context 2'
-                className='w-full h-64 p-1 object-cover rounded-lg'
+                className='w-full h-64 p-1 object-cover'
               />
             </div>
 
@@ -221,7 +221,7 @@ const Project2 = () => {
               <img
                 src={project.interfacePreview}
                 alt='App Interface Preview'
-                className='w-full h-96 object-cover rounded-xl shadow-2xl'
+                className='w-full h-96 object-cover shadow-2xl'
               />
             </div>
           </section>

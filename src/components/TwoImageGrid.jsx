@@ -1,16 +1,24 @@
 import React from 'react';
 
-const TwoImageGrid = ({ leftImage, rightImage, leftAlt = 'Left Image', rightAlt = 'Right Image' }) => (
-  <section className="mb-20">
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      <div className="aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-        <img src={leftImage} alt={leftAlt} className="w-full h-full object-cover" />
+const TwoImageGrid = ({ firstImage, secondImage }) => {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="aspect-square overflow-hidden">
+        <img
+          src={firstImage}
+          alt="First grid image"
+          className="w-full h-full object-cover"
+        />
       </div>
-      <div className="aspect-[8/10] bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-        <img src={rightImage} alt={rightAlt} className="w-full h-full object-cover" />
+      <div className="aspect-square overflow-hidden">
+        <img
+          src={secondImage}
+          alt="Second grid image"
+          className="w-full h-full object-cover"
+        />
       </div>
     </div>
-  </section>
-);
+  );
+};
 
-export default TwoImageGrid; 
+export default TwoImageGrid;

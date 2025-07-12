@@ -1,8 +1,10 @@
-import FirstView from "../Gong_Magazine/#1 - FirstView.jpg";
-import MagaView1 from "../Gong_Magazine/#2 - HoldMAgazine.png";
-import MagaView2 from "../Gong_Magazine/#3 - SideofMagazinr.png";
-import MagaView3 from "../Gong_Magazine/#4 MagazinPresent.png";
-import WideView from "../Gong_Magazine/#7 - Viewmagazine.jpg";
+import FirstView from "../Gong_Magazine/1 - FirstView.jpg";
+import MagaView1 from "../Gong_Magazine/2 - HoldMAgazine.png";
+import MagaView2 from "../Gong_Magazine/3 - SideofMagazinr.png";
+import MagaView3 from "../Gong_Magazine/4 MagazinPresent.png";
+import WideView from "../Gong_Magazine/7 - Viewmagazine.jpg";
+import Grid1 from "../Gong_Magazine/GridOrchid.png";
+import Grid2 from "../Gong_Magazine/6 - GridContibuters.png";
 // Project 3 Controller - Design System
 // System Design Project
 
@@ -16,9 +18,9 @@ const PROJECT3_IMAGES = {
   scrollablePattern: WideView,
 
   // Used in SECTION 4 (Two-image grid)
-  process1: MagaView1,
-  process2: MagaView2,
-  process3: MagaView3,
+  process2: Grid2,
+  process3: Grid1,
+ 
 
   // Used in SECTION 6 (Full-width images)
   interfacePreview: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
@@ -26,9 +28,9 @@ const PROJECT3_IMAGES = {
   userFlow: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
 
   // Used in SECTION 3 (Gallery grid)
-  gallery1: "https://images.squarespace-cdn.com/content/v1/60f1a490a90ed8713c41c36c/1629223610791-LCBJG5451DRKX4WOB4SP/37-design-powers-url-structure.jpeg?format=2500w",
-  gallery2: "https://images.squarespace-cdn.com/content/v1/60f1a490/gallery2.jpeg",
-  gallery3: "https://images.squarespace-cdn.com/content/v1/60f1a490/gallery3.jpeg",
+  gallery1: MagaView1,
+  gallery2: MagaView2,
+  gallery3: MagaView3,
   gallery4: "https://images.squarespace-cdn.com/content/v1/60f1a490/gallery4.jpeg",
   gallery5: "https://images.squarespace-cdn.com/content/v1/60f1a490/gallery5.jpeg",
   gallery6: "https://images.squarespace-cdn.com/content/v1/60f1a490/gallery6.jpeg"
@@ -36,19 +38,19 @@ const PROJECT3_IMAGES = {
 
 // Project 3 specific tags
 const PROJECT3_TAGS = {
-  userExperience: { text: "User Experience", color: "bg-indigo-600" }
+  userExperience: { text: "Editorial Design", color: "bg-indigo-600" }
 };
 
 // Project 3 complete data
 export const PROJECT3_DATA = {
   id: 3,
-  title: "DESIGN SYSTEM",
+  title: "GONG MAGAZINE",
   subtitle: "System Design Project",
-  shortTitle: "Design System",
+  shortTitle: "GONG MAGAZINE | 202",
   // Corresponds to SECTION 1 in the detail page view
   heroImage: PROJECT3_IMAGES.hero,
   thumbnailImage: PROJECT3_IMAGES.thumbnail,
-  alt: "Design System Project",
+  alt: "GONG MAGAZINE",
   
   year: "2023",
   client: "Enterprise Company",

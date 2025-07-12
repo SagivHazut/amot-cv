@@ -22,18 +22,19 @@ const PROJECT4_IMAGES = {
 
 // Project 4 specific tags
 const PROJECT4_TAGS = {
-  caseStudy: { text: "Case Study", color: "bg-indigo-600" }
+  caseStudy: { text: "Branding", color: "bg-indigo-600" }, 
+  Branding: { text: "Concept Design", color: "bg-indigo-600" }
 };
 
 // Project 4 complete data
 export const PROJECT4_DATA = {
   id: 4,
-  title: "MOBILE APPLICATION",
-  subtitle: "Mobile Design Project",
-  shortTitle: "Mobile App",
+  title: "Gamal Archive",
+  subtitle: "Gamal Archive",
+  shortTitle: "Gamal Archive | 2024",
   heroImage: PROJECT4_IMAGES.hero,
   thumbnailImage: PROJECT4_IMAGES.thumbnail,
-  alt: "Mobile Application Project",
+  alt: "MGamal Archive",
   
   year: "2023",
   client: "Mobile Startup",
@@ -94,7 +95,10 @@ export const PROJECT4_DATA = {
     ]
   },
   
-  tags: [PROJECT4_TAGS.caseStudy]
+  tags: [
+    PROJECT4_TAGS.caseStudy,
+    PROJECT4_TAGS.Branding
+  ]
 };
 
 // Helper functions for Project 4

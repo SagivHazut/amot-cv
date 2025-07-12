@@ -25,16 +25,16 @@ const PROJECT1_IMAGES = {
 
 // Project 1 specific tags
 const PROJECT1_TAGS = {
-  caseStudy: { text: "Case Study", color: "bg-indigo-600" },
-  userResearch: { text: "User Research", color: "bg-indigo-600" },
+  caseStudy: { text: "Case Study" },
+  userResearch: { text: "Concept Design"},
 };
 
 // Project 1 complete data
 export const PROJECT1_DATA = {
   id: 1,
-  title: "A BRIDGE GAP BETWEEN ACADEMIA AND SOCIETY",
+  title: "Rational Desing Lab",
   subtitle: "Design Case Study",
-  shortTitle: "Academic Bridge",
+  shortTitle: "Rational Desing Lab | 2025",
   // Used in SECTION 1: Hero Section
   heroImage: PROJECT1_IMAGES.hero,
   thumbnailImage: PROJECT1_IMAGES.thumbnail,
@@ -44,7 +44,7 @@ export const PROJECT1_DATA = {
   Poster1: Poster1, // Assuming this is the video for poster 1
   Poster2: Poster2, // Assuming this is the video for poster 2
   Webflow: Webflow, // Assuming this is the video for webflow
-  alt: "Academic Bridge Project",
+  alt: "Rational Desing Lab",
 
   // Project metadata
   year: "2023",

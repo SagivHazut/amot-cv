@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem.jsx';
 
 const PortfolioGallery = ({ projects }) => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 p-8 h-full bg-[#FFFCFC]">
       {projects.map((project) => (
         <ProjectItem 
           key={project.id} 
@@ -15,4 +15,4 @@ const PortfolioGallery = ({ projects }) => {
   );
 };
 
-export default PortfolioGallery; 
+export default PortfolioGallery;

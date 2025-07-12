@@ -1,11 +1,11 @@
 import React from 'react';
 
-const TagBadge = ({ text, color = "bg-indigo-600" }) => {
+const TagBadge = ({ text, color }) => {
   return (
-    <span className={`${color} text-white rounded-full px-2 py-1 mr-1 text-m`}>
+    <span className="bg-[#CbbEFB] text-[#161212] px-4 py-2 mr-1 text-[18px] font-normal font-['Roboto'] rounded-[38px]">
       {text}
     </span>
   );
 };
 
-export default TagBadge; 
+export default TagBadge;
